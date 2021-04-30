@@ -18,6 +18,8 @@ Streaming speech recognition provides real-time speech recognition results as th
 And lastly, Speech-to-Text On-Prem can be deployed in your own private data centers to ensure full conrtol and protection.
 
 ## How It Works
+
+![](https://raw.githubusercontent.com/carolinelee78/HW4_Caprese/main/DrawIo.png)
 Our process involves downloading sample recordings of speech in varying languages from omniglot and storing them in cloud storage. Then, using the Google Speech to Text API we run the audio files to get the text output. These results were then stored in BigQuery and confidence intervals were created to assess the accuracy of the Speech to Text API for each language.
 
 ## Conclusions 

@@ -4,7 +4,7 @@
 Today, we can see services that turn speech into text almost everywhere. For example, the dictate feature in phones and smart TVs. That being said, it is often a struggle to get the device to type what you are saying as it may misinterpret the words as something else. This is why, in this notebook, we decided to test out Google Cloud's Speech to Text machine learning API to see how well it would do when transcribing speech.
 
 # API Overview
-## Google Could's Speech to Text
+## Google Cloud's Speech to Text
 Google Cloud's machine learning API Speech to Text allows you to convert speech into text using Google’s AI technologies. Speech to Text can transcribe content in real time or from stored files, deliver an improved user experience through voice commands, and improve service based on customer interactions.
 
 Benefits of this API include state-of-the-art accuracy, global reach, and flexible deployment. Google’s most advanced deep learning neural network algorithms enable automatic speech recognition (ASR). Voice recognition supports over 125 different languages, and speech recognition can be deployed in the cloud or on premises.

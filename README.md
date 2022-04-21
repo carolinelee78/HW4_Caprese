@@ -22,7 +22,7 @@ And lastly, Speech-to-Text On-Prem can be deployed in your own private data cent
 Our process involves downloading sample recordings of speech in varying languages from omniglot and storing them in cloud storage. Then, using the Google Speech to Text API we run the audio files to get the text output. These results were then stored in BigQuery and confidence intervals were created to assess the accuracy of the Speech to Text API for each language.
 
 ## Data Visualizations 
-Check out the data visualizations in ![Data Studio](https://datastudio.google.com/reporting/10d771f4-7eb0-46f8-abe8-d485dc8c9ab4)!
+Check out the data visualizations in ![Data Studio](https://datastudio.google.com/reporting/10d771f4-7eb0-46f8-abe8-d485dc8c9ab4)
 
 ## Conclusions 
 We conducted tests using Google’s Speech-to-Text API for three different phrases and in 5 different languages. We gave the API phrases in Korean, Slovenian, Vietnamese, Icelandic, and Persian. There was a range of accuracy from the different languages as well as the different phrases. For “Thanks”, the confidence level ranged from 60.1% with Slovenian to 97.6% with Icelandic. For “How are you?”, the confidence levels ranged from 83.4% in Vietnamese to 96.1% confidence in Icelandic. The phrase “Happy Birthday” was interesting as well, because we saw Korean fall off in confidence a lot compared to the other two phrases, reaching only 74.6% confidence, while Slovenian shot all the way up to 95.8% confidence. Icelandic remained solid in the third phrase though, at 97.6%, demonstrating that Google’s Speech-to-Text API is quite good at discriminating the translation of phrases in Icelandic compared to the other languages.
